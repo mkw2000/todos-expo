@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "todos-expo",
-    "slug": "todos-expo",
+    "name": "Todo Expo",
+    "slug": "todo-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mkw2k.todoexpo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mkw2k.todoexpo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "owner": "mkw2k",
+    "extra": {
+      "eas": {
+        "projectId": "f76e1ffc-f960-466f-b6d7-e4148c2f0509"
+      }
     }
   }
 }
